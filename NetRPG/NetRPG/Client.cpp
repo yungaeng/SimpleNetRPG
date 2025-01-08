@@ -3,8 +3,8 @@
 
 void Client::do_send(void* packet) const
 {
-	EX_OVER* sdata = new EX_OVER{ reinterpret_cast<unsigned char*>(packet) };
-	WSASend(m_socket, &sdata->wsabuf, 1, 0, 0, &sdata->over, 0);
+    EX_OVER* sdata = new EX_OVER{ reinterpret_cast<unsigned char*>(packet) };
+    WSASend(m_socket, &sdata->wsabuf, 1, 0, 0, &sdata->over, 0);
 }
 
 void Client::do_recv()
@@ -22,9 +22,9 @@ void Client::sc_login_ok()
     SC_LOGIN_OK_PACKET p;
     p.size = sizeof(SC_LOGIN_OK_PACKET);
     p.type = SC_LOGIN_OK;
-    
+
     p.id = m_id;
-    
+
     p.loc_x = m_loc_x;
     p.loc_y = m_loc_y;
     p.loc_z = m_loc_z;
@@ -44,5 +44,4 @@ void Client::sc_move()
     p.id = m_id;
     do_send(&p);
 }
-
 

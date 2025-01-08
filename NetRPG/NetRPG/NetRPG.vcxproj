@@ -127,15 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Game.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="EX_OVER.h" />
     <ClInclude Include="Hosting.h" />
     <ClInclude Include="Joinning.h" />
+    <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="EX_OVER.cpp" />
     <ClCompile Include="Hosting.cpp" />
     <ClCompile Include="Joinning.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="protocol.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

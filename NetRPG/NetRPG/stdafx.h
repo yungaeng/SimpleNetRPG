@@ -1,3 +1,4 @@
+#pragma once
 #pragma comment(lib, "ws2_32") // ws2_32.lib ¸µÅ©
 #pragma comment(lib, "MSWSock.lib")
 

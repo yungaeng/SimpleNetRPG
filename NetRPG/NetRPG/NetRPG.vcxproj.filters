@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\0. Element">
+      <UniqueIdentifier>{3bafaae4-fd9c-4e32-b314-e1dccbf40d15}</UniqueIdentifier>
+    </Filter>
     <Filter Include="소스 파일\1. GameMod">
       <UniqueIdentifier>{5e363847-fda7-4a88-919e-c7b14298a556}</UniqueIdentifier>
     </Filter>
@@ -22,22 +25,31 @@
     <Filter Include="소스 파일\1. GameMod\2. Joinning">
       <UniqueIdentifier>{8df08d55-cc2f-4e73-a123-eaa4638907cf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\0. Element\0. Client">
+      <UniqueIdentifier>{149e0df1-aef1-46b1-9dd6-3da2fa88e89b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\0. Element\1. EX_OVER">
+      <UniqueIdentifier>{dbd6173e-788a-4c3f-b4c7-909463c232c3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Game.h">
-      <Filter>소스 파일\1. GameMod</Filter>
-    </ClInclude>
     <ClInclude Include="Hosting.h">
       <Filter>소스 파일\1. GameMod\1. Hosting</Filter>
     </ClInclude>
     <ClInclude Include="Joinning.h">
       <Filter>소스 파일\1. GameMod\2. Joinning</Filter>
     </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>소스 파일\0. Element\0. Client</Filter>
+    </ClInclude>
+    <ClInclude Include="EX_OVER.h">
+      <Filter>소스 파일\0. Element\1. EX_OVER</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Game.cpp">
-      <Filter>소스 파일\1. GameMod</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -46,6 +58,15 @@
     </ClCompile>
     <ClCompile Include="Joinning.cpp">
       <Filter>소스 파일\1. GameMod\2. Joinning</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol.h">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>소스 파일\0. Element\0. Client</Filter>
+    </ClCompile>
+    <ClCompile Include="EX_OVER.cpp">
+      <Filter>소스 파일\0. Element\1. EX_OVER</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

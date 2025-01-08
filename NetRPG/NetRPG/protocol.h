@@ -1,11 +1,11 @@
 #pragma once
 
-constexpr size_t MAX_CLIENT = 100;
-constexpr auto MAX_NAME_LEN = 20;
-constexpr auto MAX_CHAT_LEN = 20;
-constexpr auto BUFFER_SIZE = 256;
+#define MAX_CLIENT 1000
+#define MAX_NAME_LEN 20
+#define MAX_CHAT_LEN 20
+#define BUFFER_SIZE 256
 
-constexpr auto PORT = 9000;
+#define PORT 9000
 
 // 클라가 서버에게 (서버에서 처리)
 constexpr char CS_LOGIN = 0;
