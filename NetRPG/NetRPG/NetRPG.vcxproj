@@ -129,16 +129,14 @@
   <ItemGroup>
     <ClInclude Include="Client.h" />
     <ClInclude Include="EX_OVER.h" />
-    <ClInclude Include="Hosting.h" />
-    <ClInclude Include="Joinning.h" />
+    <ClInclude Include="Networking.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Client.cpp" />
     <ClCompile Include="EX_OVER.cpp" />
-    <ClCompile Include="Hosting.cpp" />
-    <ClCompile Include="Joinning.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Networking.cpp" />
     <ClCompile Include="protocol.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

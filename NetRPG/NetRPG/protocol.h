@@ -1,6 +1,6 @@
 #pragma once
 
-#define MAX_CLIENT 1000
+#define MAX_CLIENT 100
 #define MAX_NAME_LEN 20
 #define MAX_CHAT_LEN 20
 #define BUFFER_SIZE 256
