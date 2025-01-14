@@ -25,6 +25,15 @@
     <Filter Include="소스 파일\1. Network">
       <UniqueIdentifier>{9853747a-f1b5-4faa-98ce-b1b65d2842f1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2. GameWorld">
+      <UniqueIdentifier>{447a0909-a5ec-42f2-9047-ad9542ace217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. GameWorld\1. Character">
+      <UniqueIdentifier>{c592140f-1c19-4036-9ed5-5c9ed1859808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. GameWorld\2. Monster">
+      <UniqueIdentifier>{82137abc-2356-43db-a122-1d733df7573f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -38,6 +47,15 @@
     </ClInclude>
     <ClInclude Include="Networking.h">
       <Filter>소스 파일\1. Network</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld.h">
+      <Filter>소스 파일\2. GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>소스 파일\2. GameWorld\1. Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>소스 파일\2. GameWorld\2. Monster</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -55,6 +73,15 @@
     </ClCompile>
     <ClCompile Include="Networking.cpp">
       <Filter>소스 파일\1. Network</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld.cpp">
+      <Filter>소스 파일\2. GameWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>소스 파일\2. GameWorld\1. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일\2. GameWorld\2. Monster</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
